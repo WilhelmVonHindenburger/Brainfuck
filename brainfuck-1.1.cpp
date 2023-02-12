@@ -9,7 +9,7 @@ int main(){
     char instruction; // The currect instruction
     int instrptr=0; //The instruction pointer
     int mem[30000]={0}; //Memory space to run it in
-    int memptr=29998; //Pointer in memory
+    int memptr=0; //Pointer in memory
     int looplayers=0; //How many layers of loops are in the loop being checked
     while(1){
         instruction=bf[instrptr]; //Read the current instruction
