@@ -17,3 +17,11 @@ Changes:
 * Added comments to code
 * Increased memory size to standard value of 30,000
 * Added segmentation fault code for when it tries to access memory out of bounds
+
+## Version 1.1.1
+* February 12 2023
+
+Changes:
+* Cleaned up code
+* Removed the outputting of the current memory value in the out of bounds checker
+* Removed redundant end-of-file check because there's already one in the switch statement
